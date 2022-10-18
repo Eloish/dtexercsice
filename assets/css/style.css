@@ -1,0 +1,149 @@
+body{
+    margin: auto;
+    width: 80%;
+    background-color: #f1f1f5;
+}
+
+header{
+    text-align: center;
+    color: #b0c4de;
+    border-right: 10px #eeb422 solid;
+}
+
+header img{
+    height: 150px;
+}
+
+nav{
+    border-right: 10px #eeb422 solid;
+    height: 400px;
+    background-image: url(../images/bg.jpeg);
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    align-items: center;  
+}
+.lorem{
+    background: white;
+    margin-left: 500px;
+    font-size: 20px;
+    color: #b0c4de;
+    border: 5px white solid;
+    border-radius: 5px;
+    border-top-color: #eeb422;
+    border-bottom-color: #eeb422;    
+}
+.color1{
+    width: 80%;
+    background-color: #eeb422;
+    height: 50px;
+}
+.color2{
+    margin-top:5px;
+    width: 70%;
+     background-color: blue;
+     height: 10px;
+}
+section{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: auto;
+    padding-top: 100px;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 120px;
+    
+    
+}
+
+section p{
+   background-color: #eeb422;
+   width: 100px;
+   text-align: center;
+   border-radius: 5%;
+   color: white; 
+   padding: 7px; 
+    
+}
+section h4{
+    width: 400px;
+    
+}
+.color3{
+    
+    width: 60%;
+    background-color: #eeb422;
+    height: 5px;
+    margin-top: 40px;
+    margin-left: 430px;
+    
+
+}
+article{
+display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 120px;
+    
+}
+article .tittle{
+    background-color: #eeb422;
+   width: 100px;
+   text-align: center;
+   border-radius: 5%;
+   color: white; 
+   padding: 7px; 
+}
+
+article ol{
+    list-style: none;
+    counter-reset: li;
+    
+  
+}
+
+li::before{
+content:counter(li);
+display: inline-block;
+background-color: #eeb422;
+color: white;
+border-radius: 5%;
+margin-bottom: 5px;
+margin-left: -2.5em;
+padding: 8px;
+}
+li{
+    counter-increment: li;
+    font-weight: bold;
+   
+}
+.color4{
+    
+    width: 40%;
+    background-color: blue;
+    height: 5px;
+    margin-top: 40px;
+    
+
+}
+footer{
+    text-align: center;
+    background-color: #eeb422;
+    margin:30px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer .phone{
+    margin-left: 20px;
+}
+
+
+
+
+
+
