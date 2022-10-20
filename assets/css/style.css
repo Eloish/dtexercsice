@@ -63,7 +63,7 @@ section p{
    background-color: #eeb422;
    width: 100px;
    text-align: center;
-   border-radius: 5%;
+border-radius: 10px;
    color: white; 
    padding: 7px; 
     
@@ -75,9 +75,7 @@ section p{
     background-color: #eeb422;
     height: 5px;
     margin-top: 40px;
-    margin-left: 430px;
-    
-
+    margin-left: 40%;
 }
 article{
 display: grid;
