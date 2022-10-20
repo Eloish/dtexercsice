@@ -52,9 +52,11 @@ section{
     padding-top: 100px;
     text-align: left;
     font-weight: 100;
-    margin-left: 120px;
-
     
+}
+
+section h4 {
+    overflow: auto;
 }
 
 section p{
@@ -66,10 +68,7 @@ section p{
    padding: 7px; 
     
 }
-section h4{
-    width: 400px;
-    
-}
+
 .color3{
     
     width: 60%;
