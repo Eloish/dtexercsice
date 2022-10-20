@@ -28,11 +28,10 @@ nav{
     background: white;
     font-size: 20px;
     width: 60%;
-    color: #b0c4de;
-    border: 5px white solid;
-    border-radius: 5px;
-    border-top-color: #eeb422;
-    border-bottom-color: #eeb422;
+    color: #000000;
+        border-radius: 6px;
+        border-top: 5px solid #eeb422;
+        border-bottom: 5px solid #eeb422;
 }
 .color1{
     width: 80%;
@@ -54,7 +53,7 @@ section{
     text-align: left;
     font-weight: 100;
     margin-left: 120px;
-    
+
     
 }
 
