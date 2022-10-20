@@ -21,17 +21,18 @@ nav{
     background-size: cover;
     display: flex;
     background-position: center;
-    align-items: center;  
+    align-items: center;
+    justify-content: right;
 }
-.lorem{
+.lorem {
     background: white;
-    margin-left: 500px;
     font-size: 20px;
+    width: 60%;
     color: #b0c4de;
     border: 5px white solid;
     border-radius: 5px;
     border-top-color: #eeb422;
-    border-bottom-color: #eeb422;    
+    border-bottom-color: #eeb422;
 }
 .color1{
     width: 80%;
